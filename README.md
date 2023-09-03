@@ -6,8 +6,9 @@ Long Description about project. This project do that. This project is awesome...
 
 ## Team members
 
-1. [Name 1](https://github.com/TH-Activities/saturday-hack-night-template)
-2. [Name 2](https://github.com/TH-Activities/saturday-hack-night-template)
+1. [Sreenath K P](https://github.com/sreenath-kp)
+2. [Rahul Das](https://github.com/RAHUL-DAS-P)
+3. [John George Chelamattom](https://github.com/john-George510)
 
 ## Link to product walkthrough
 
@@ -42,4 +43,4 @@ To get started with the project, follow these steps:
 
 To run the file, execute the following command:
 
-python manage.py runserver
+`python manage.py runserver`
