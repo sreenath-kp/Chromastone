@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Simple Q&A</title>
+  </head>
+  <body>
+    <h1>Simple Question and Answer</h1>
+
+    <form method="post" action="{% url 'ask' %}">
+      {% csrf_token %}
+      <label for="question_input">Ask a Question:</label>
+      <input type="text" id="question_input" name="user_question" required />
+      <button type="submit">Submit</button>
+    </form>
+
+    <div>
+      <h2>Question</h2>
+      <p>{{ question }}</p>
+    </div>
+
+    <div>
+      <h2>Answer</h2>
+      <p>{{ answer }}</p>
+    </div>
+  </body>
+</html>
